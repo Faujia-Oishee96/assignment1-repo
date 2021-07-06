@@ -22,7 +22,7 @@ h3{
     color: rgb(163, 162, 162);
 }
 p{
-    color: rgb(139, 139, 139);
+    color: rgb(158, 149, 149);
 }
 .half-width{
     width: 50%;
@@ -35,22 +35,24 @@ p{
 
 /* navigation bar start from here */
 .nav-bar{
-    background-color:rgb(250, 192, 171);
-    border-radius: 10px;
+    background-color:rgb(243, 132, 243);
 }
 .nav-bar a{
     text-decoration: none;
-    padding:20px;
+    padding:10px 20px;
     margin: 10px;
     color:white;
-    background-color: rgb(255, 161, 145);
+    background-color:rgb(187, 46, 187);
+    border-radius: 20px;
+    font-weight: 700;
 }
 #heading{
-    text-align: center;
-    margin-left: 180px;
+    text-align: left;
+    margin-left: 10px;
 }
 #reference{
     text-align: right;
+    padding: 40px;
 }
 
 /* nevigation bar end here */
@@ -62,17 +64,17 @@ p{
 }
 
 .span-clr{
-    color: rgb(216, 143, 9);
+    color: rgb(177, 64, 177);
 }
 
 .btn{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(207, 33, 207),hotpink);
     padding: 15px 25px;
     border-radius: 30px;
     color: white;
     font-weight: 700;
-    box-shadow: 5px 5px 20px rgb(245, 169, 155);
+    box-shadow: 5px 5px 30px rgb(219, 113, 131);
 }
 .button{
     padding-top: 30px;
@@ -119,12 +121,29 @@ p{
 .review-content{
     padding-left: 40px;
 }
-.review-content img{
+.image-content1 img{
     height: 140px;
     width: 130px;
     border-radius: 50%;
-    padding: 20px;
-    border: 3px solid gray;
+    border: 3px solid rgb(121, 21, 21);
+}
+.image-content2 img{
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid rgb(17, 97, 17);
+}
+.image-content3 img{
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid rgb(17, 17, 131);
+}
+.image-content4 img{
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid purple;
 }
 /* about-us section ends here */
 
