@@ -2,12 +2,40 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    padding-bottom: 40px;
+}
 .flexible-content{
     display: flex;
-    padding-bottom:30px ;
 }
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(95, 92, 92);
+}
+h2{
+    font-size: 30px;
+    color: rgb(121, 114, 114);
+}
+h3{
+    font-size: 20px;
+    color: rgb(163, 162, 162);
+}
+p{
+    color: rgb(139, 139, 139);
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 60%;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+/* navigation bar start from here */
 .nav-bar{
-    background-color:rgb(253, 147, 108);
+    background-color:rgb(250, 192, 171);
     border-radius: 10px;
 }
 .nav-bar a{
@@ -24,29 +52,10 @@ body{
 #reference{
     text-align: right;
 }
-h1{
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(95, 92, 92);
-}
-h2{
-    font-size: 30px;
-    color: rgb(121, 114, 114);
-}
-h3{
-    font-size: 20px;
-}
-p{
-    color: rgb(139, 139, 139);
-}
-.half-width{
-    width: 50%;
-}
-.half-width img{
-    width: 60%;
-    padding: 50px;
-    border-radius: 100%;
-}
+
+/* nevigation bar end here */
+
+/* order section starts from here */
 .div-distance{
     padding-top:90px;
     padding-left: 60px;
@@ -61,12 +70,24 @@ p{
     background-image: linear-gradient(orange, tomato);
     padding: 15px 25px;
     border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 5px 5px 20px rgb(245, 169, 155);
 }
+.button{
+    padding-top: 30px;
+}
+/* order section ends here */
+
+/* contact section start from here */
 .middle-banner{
     background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
 }
-.position{
+/* order section ends here */
+
+/* recipie section start from here */
+.position-content{
     text-align: center;
 }
 .img-content img{
@@ -89,20 +110,29 @@ p{
     padding-left: 50px;
     margin-left: 50px;
 }
+/* recipie section ends here */
+
+/* about-us section start from here */
 .about-us{
     text-align: center;
 }
-.review{
+.review-content{
     padding-left: 40px;
 }
-.review img{
-    height: 120px;
-    width: 90px;
+.review-content img{
+    height: 140px;
+    width: 130px;
     border-radius: 50%;
+    padding: 20px;
+    border: 3px solid gray;
 }
+/* about-us section ends here */
+
+/* footer start from here */
 footer{
     text-align: center;
     background-color: black;
     color: gray;
-    padding: 30px;
+    padding: 20px;
 }
+/* footer ends here */
