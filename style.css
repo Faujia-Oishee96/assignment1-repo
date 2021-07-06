@@ -1,10 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .flexible-content{
     display: flex;
     padding-bottom:70px ;
+}
+.nav-bar{
+    display: flex;
 
+}
+.nav-bar a{
+    text-decoration: none;
+    padding: 30px ;
+}
+.heading{
+    text-align: center;
+    margin-left: 180px;
+}
+.reference{
+    text-align: right;
+    padding-top: 20px;
+}
+.text-size{
+    font-size: 30px;
 }
 .half-width{
     width: 50%;
@@ -12,15 +31,22 @@ body{
 .half-width img{
     width: 60%;
     padding: 50px;
+    border-radius: 100%;
 }
-.distance{
+.div-distance{
     padding-top:90px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 h1{
     font-size: 40px;
     font-weight: 900;
     color: rgb(95, 92, 92);
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
 }
 p{
     color: rgb(139, 139, 139);
@@ -36,26 +62,29 @@ p{
     border-radius: 30px;
 }
 .middle-banner{
-    background-image: url(images/7.png);
+    background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
 }
 .position{
     text-align: center;
 }
 .img-content img{
-    height: 190px;
-    width: 260px;
+    height: 170px;
+    width: 250px;
     padding:5px;
-}
-.card-content{
-    box-shadow: 10px 10px 40px rgb(163, 162, 162);
-    margin: 40px;
-    padding:10px;
-    height: 370px;
-    width: 270px;
+    border-radius:20px ;
     border-radius: 20px;
 }
-.distance2{
+.box-content{
+    box-shadow: 10px 10px 40px rgb(163, 162, 162);
+    margin: 50px;
+    padding: 8px;
+    height: 370px;
+    width: 260px;
+    border-radius: 20px;
+    text-align: justify;
+}
+.box-distance{
     padding-left: 50px;
     margin-left: 50px;
 }
