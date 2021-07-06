@@ -3,16 +3,18 @@ body{
 }
 .flexible-content{
     display: flex;
+    padding-bottom:70px ;
 
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
+    padding: 50px;
 }
 .distance{
-    padding-top: 90px;
+    padding-top:90px;
     padding-left: 40px;
 }
 h1{
@@ -32,4 +34,8 @@ p{
     background-image: linear-gradient(orange, tomato);
     padding: 15px 25px;
     border-radius: 30px;
+}
+.middle-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
 }
