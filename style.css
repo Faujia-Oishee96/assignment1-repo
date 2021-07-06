@@ -4,26 +4,40 @@ body{
 }
 .flexible-content{
     display: flex;
-    padding-bottom:70px ;
+    padding-bottom:30px ;
 }
 .nav-bar{
-    display: flex;
-
+    background-color:rgb(253, 147, 108);
+    border-radius: 10px;
 }
 .nav-bar a{
     text-decoration: none;
-    padding: 30px ;
+    padding:20px;
+    margin: 10px;
+    color:white;
+    background-color: rgb(255, 161, 145);
 }
-.heading{
+#heading{
     text-align: center;
     margin-left: 180px;
 }
-.reference{
+#reference{
     text-align: right;
-    padding-top: 20px;
 }
-.text-size{
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(95, 92, 92);
+}
+h2{
     font-size: 30px;
+    color: rgb(121, 114, 114);
+}
+h3{
+    font-size: 20px;
+}
+p{
+    color: rgb(139, 139, 139);
 }
 .half-width{
     width: 50%;
@@ -37,20 +51,7 @@ body{
     padding-top:90px;
     padding-left: 60px;
 }
-h1{
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(95, 92, 92);
-}
-h2{
-    font-size: 30px;
-}
-h3{
-    font-size: 20px;
-}
-p{
-    color: rgb(139, 139, 139);
-}
+
 .span-clr{
     color: rgb(216, 143, 9);
 }
@@ -87,6 +88,17 @@ p{
 .box-distance{
     padding-left: 50px;
     margin-left: 50px;
+}
+.about-us{
+    text-align: center;
+}
+.review{
+    padding-left: 40px;
+}
+.review img{
+    height: 120px;
+    width: 90px;
+    border-radius: 50%;
 }
 footer{
     text-align: center;
